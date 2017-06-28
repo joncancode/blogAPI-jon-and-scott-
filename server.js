@@ -13,11 +13,10 @@ app.use(morgan('common'));
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/views/index.html');
+  res.sendFile(__dirname + 'views/index.html');
 });
 
-
-app.use('/', blogPostRouter);
+app.use('/blog-posts', blogPostRouter);
 
 
 app.listen(process.env.PORT || 8080, () => {
