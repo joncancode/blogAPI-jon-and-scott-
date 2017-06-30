@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XdMrFJjXWEG6YJPBEz2ysUVGr4RmcP19AHL23Xyz2Rgd7mQON6kYg+MNQhcjEDH9fE+rv6es/ORl2cwhf3/jvbezjfWvmlc390NCwHNW2GxXR86A1lZlW/nyHibNRCk0QG4jDmGsE79w9JTRkN68UTRUw67XV77ubxwkRllMfdI4vMerSrgcQ1DkzRVUUmltkcm2qPPLmYOilNzTjhzS0phgULNxRDiSIN+etGD99p4gm4NCd54wyU2qA3M4r+rp4n08W2VHG5dQ1xdZFTlHtvKHlbHq+Si05pfPGZqAAt+7Jyfj+OnFVRBywN8H2l7B38P6L2loTWccVDcyJjR2F6tvTkxNsJs9bAYiGHsZqa4xP9rnEvWZxvLLnRDaLfb33hBWxJ91kOE58ID1ahhNX+S9QTUd3YGYDeYRM0/+Kl4Osn5FUfg3onvDcUZD3hPxjGJb8hUbmK5ChWrRqsyVCxdAKy+xGnI0Zxsdr0VjOp9xe7VNTt2BySNcQcgjB5I5SBalGmM6kDUmn8vkzk2p1X6j+ipAy0ckyI/jiGoIpIcKY3sLjfB1bKEjyuI4GTNp3eQMovNe2eNNJPTtqw16gR+tQtor5wCmrEzhRKMnN0oDiqDgdLnBh/CC4WMOIkIe0u+MANOgtbmwWHYLQESw2Mf8ZdE0APJdYphNwmGyauA=
+  app: frozen-savannah-75580
+  on:
+    repo: joncancode/blogAPI-jon-and-scott-
