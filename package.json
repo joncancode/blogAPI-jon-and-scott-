@@ -4,15 +4,30 @@
   "description": "building crud blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "chai-http": "^3.0.0",
     "express": "^4.15.3",
     "morgan": "^1.8.2",
     "server-js": "^0.1.4",
     "uuid": "^3.1.0"
-  }
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joncancode/blogAPI-jon-and-scott-.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/joncancode/blogAPI-jon-and-scott-/issues"
+  },
+  "homepage": "https://github.com/joncancode/blogAPI-jon-and-scott-#readme"
 }
